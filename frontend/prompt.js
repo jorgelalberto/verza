@@ -25,12 +25,14 @@ txtInput.addEventListener("keyup", (event) => {
 
 const renderUserMessage = () => {
   const userInput = txtInput.value;
+  if (userInput == "") {return -1}
   renderMessageEle(userInput, "user-message");
   /*Clears msg after send */
   txtInput.value = "";
   /*Wait for response makes msg seem more natural */
   setTimeout(() => {
     renderChatbotResponse(userInput);
+    /*FIXME*/
     setScrollPosition();
   }, 600);
 };

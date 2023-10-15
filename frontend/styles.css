@@ -11,13 +11,12 @@ body {
 .container {
   /*configure txtbox settings*/
   --light-color: #fff;
-  height: 420px;
-  width: 350px;
+  height: 100%;
+  width: 70%;
   background: var(--light-color);
   /*position txtbox @ bottom right*/
   position: fixed;
-  bottom: 50px;
-  right: 10px;
+  right: 15%;
   box-shadow: 0px 0px 15px 0px black;
 }
 
@@ -45,7 +44,7 @@ body {
 }
 
 .chat-body {
-  height: 300px;
+  height: 80%;
   display: flex;
   /*Column format, prevents overflow to the sides*/
   flex-direction: column;
