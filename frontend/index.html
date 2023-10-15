@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verza</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="prompt.js" defer></script>
+    <script src="response.js" defer></script>
+    <script src="chatbot.js" defer></script>
+    <!-- Make sure your page supports utf-8 characterset. -->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Load TensorFlow.js. This is required to use the qna model. -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"> </script>
+    <!-- Load the qna model. -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/qna"> </script>
+    <link href="/favicon.ico" type="image/x-icon" rel="icon" />
+</head>
+<body>
+    <div class="container">
+        <div class="chat-header">
+            <div class="logo">
+                <img src="images/logo.png" alt="logo1">
+            </div>
+            <div class="title">Get Invested</div>
+        </div>
+        <div class="chat-body"></div>
+        <div class="chat-input">
+            <div class="input-sec">
+                <input type="text" id="txtInput" placeholder="Ask about investing" />
+            </div>
+            <div class="send">
+                <img src="images/send.png" alt="send" width="20px"/>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
