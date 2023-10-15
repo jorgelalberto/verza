@@ -17,7 +17,7 @@ body {
   /*position txtbox @ bottom right*/
   position: fixed;
   right: 15%;
-  box-shadow: 0px 0px 15px 0px black;
+  box-shadow: 0px 0px 15px 0px #000000;
 }
 
 .chat-header {
@@ -34,9 +34,10 @@ body {
   height: 35px;
 }
 
-.chat-header img:hover {
+img:hover {
     cursor: pointer;
 }
+
 
 
 .chat-header .title {
