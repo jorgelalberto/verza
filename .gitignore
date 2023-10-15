@@ -1,5 +1,6 @@
 # exclude everything
-node_modules/*
+client/node_modules/*
+server/node_modules/*
 src/chatbot/data/financial_calls/*
 
 #exclude certain files
