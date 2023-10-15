@@ -13,11 +13,22 @@ function App() {
 
   return (
     <div className="App">
-      <header className="App-header">
+    <section className="Chat">
+      <div className="Chat-Input-Box">
+        <textarea className="Chat-Input-Text" 
+        placeholder="Type message here...">
+        </textarea>
+      </div>
+    </section>
+    <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>{!data ? "Loading..." : data}</p>
       </header>
     </div>
+
+    //<aside className="sidemenu">
+      //<h1>Aside</h1>
+    //</aside>
   );
 }
 

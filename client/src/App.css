@@ -1,5 +1,11 @@
 .App {
   text-align: center;
+  display:flex;
+}
+
+.sidemenu {
+  width:300px;
+  border:1px solid white;
 }
 
 .App-logo {
@@ -13,6 +19,17 @@
   }
 }
 
+.Chat {
+  flex:1;
+  border:1px solid white;
+}
+.Chat-Input-Box {
+
+}
+
+.Chat-Input-Text {
+  background-color:#ffffff;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
