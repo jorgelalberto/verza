@@ -1,0 +1,7 @@
+# exclude everything
+node_modules/*
+src/chatbot/data/financial_calls/*
+
+#exclude certain files
+package-lock.json
+package.json
